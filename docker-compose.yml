@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app        # live reload — edit files, changes reflect instantly
+    command: python days/day1/main.py
+    stdin_open: true
+    tty: true

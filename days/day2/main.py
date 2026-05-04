@@ -1,0 +1,1 @@
+print("Hello, World! This is Day 2 of Python Learning Week.")
